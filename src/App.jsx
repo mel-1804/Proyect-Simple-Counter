@@ -1,9 +1,9 @@
-import {Counter} from "./components/Counter"
+import {SecondsCounter} from "./components/SecondsCounter.jsx"
 
 function App () {
   return (
   <>
-  <Counter/>
+  <SecondsCounter/>
   </>
   )
 }
