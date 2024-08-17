@@ -1,16 +1,11 @@
 import {SecondsCounter} from "./components/SecondsCounter.jsx"
 
-function App () {
+function App (props) {
   return (
   <>
-  <SecondsCounter/>
+  <SecondsCounter segundo={props.numero}/>
   </>
   )
 }
 
-
-
- 
-
-
-export default App
+ export default App

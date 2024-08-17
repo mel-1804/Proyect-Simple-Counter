@@ -7,7 +7,7 @@ export function SecondsCounter (props) {
           <div className="cajaSegundos rounded-3 mx-2">0</div>
           <div className="cajaSegundos rounded-3 mx-2">0</div>
           <div className="cajaSegundos rounded-3 mx-2">0</div>
-          <div className="cajaSegundos rounded-3 mx-2">0</div>
+          <div className="cajaSegundos rounded-3 mx-2">{props.segundo}</div>
         </div>
     )
 }
