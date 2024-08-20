@@ -3,15 +3,17 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-let numero = 0
 
+let numero = 0
 setInterval(Counter, 1000);
 function Counter() {
-  numero++
   
+  numero++
+  const numeroNuevo = String(numero).padStart(6, "0");
+
   createRoot(document.getElementById('root')).render(
     <StrictMode>
-      <App numero={numero}/>
+      <App numero={numeroNuevo}/>
     </StrictMode>,
   )
 }
